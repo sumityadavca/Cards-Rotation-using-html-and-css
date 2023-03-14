@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+    color:white;
+    background-color: darkgrey;
+}
+#container{
+    display: flex;
+    max-width:1000px;
+    gap: 50px;
+    margin: 150px auto;
+    
+ }
+ .content:hover{
+     transform: scale(1.2);
+     transform:rotate(360deg);
+
+
+ }
+
+.content{
+    width: 320px;
+
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    transition: all 2s ease-in-out;
+}
+ .icon{
+    margin: 40px 0;
+}
+span.material-symbols-outlined{
+    font-size:80px;
+}
+.button{
+    width:100%;
+    text-align: center;
+    background-color: rgb(245, 233, 12);
+    color: white;
+    margin:20px 0;
+    padding: 10px;
+}
